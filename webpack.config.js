@@ -16,7 +16,7 @@ module.exports = {
     extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   devServer: {
-    static: path.resolve(__dirname, 'public'),
+    contentBase: path.resolve(__dirname, 'public'),
     hot: true,
   },
   plugins: [
